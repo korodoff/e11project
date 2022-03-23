@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment-2</title>
+</head>
+<body>
+    <h3>FORMS</h3>
+    <form action="./check.html" method="get">
+        <h5>Name:<input type="text" name="Name" placeholder="enter name" required></h5>
+        <!--lable:The <label> tag defines a label for many form elements.The <label> element is useful for screen-reader users-->
+        <label for="Email">Email Address <input type="email" name="Email" placeholder="Email" required></label></br>
+        </br>
+        <label for="Password">Password:<input type="Password" name="Password" placeholder="Password" required></label>
+
+        <h5>language</h5>
+        <input type="radio" name="language" id="react" value="react">
+        <label for="react">react</label></br>
+        <input type="radio" name="language" id="Angular" value="Angular">
+        <label for="Angular">Angular</label></br>
+        <input type="radio" name="language" id="vue" value="vue">
+        <label for="vue">Vue</label></br>
+        <!--course-->
+        <h5>course</h5>
+        <input type="checkbox" name="course" id="" value="MREN" required>
+        <label for="">MERN</label></br>
+        <input type="checkbox" name="course" id="" value="MEAN">
+        <label for="">MEAN</label></br>
+        <input type="checkbox" name="course" id="" value="MEVN">
+        <label for="">MEVN</label></br>
+
+        <label for="field">Field:</label></br>
+        <!--select tag use for cascading dropdown-->
+        <select name="course" id="field">
+            <option value="front end">front end</option>
+            <option value="back end">back end</option>
+        </select>
+    </br>
+        <!-- textarea used for commentbox -->
+        <textarea name="comments" id="comments" cols="20" rows="5"></textarea>
+</br>
+        <label for="phone no">phone no:</label>
+        <input type="tel" name="number" id="phone no" required>
+        <input type="submit" value="submit">
+
+        <h3>TABLES</h3>
+        <a href="./table.html">click Here</a>
+    </form>
+    
+</body>
+</html>     
