@@ -1,0 +1,151 @@
+.main{
+    background-image: linear-gradient(
+        to bottom left,
+        rgb(149, 149, 243),
+        rgb(147, 219, 147),
+        rgb(176, 176, 98),
+        rgb(138, 79, 79),
+        rgb(143, 128, 100),
+        rgb(158, 95, 158)
+
+    );
+    width: 100vw;
+    height: 250vh;
+    border: 10px groove green;
+}
+.heading{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    border: 8px solid red;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+.heading-child1{
+    font-size: 30px;
+    width: 12em;
+    height: 3em;
+    padding: 30px;
+    border-radius: 50px;
+    left: 20px;
+    top: 30px;
+}
+.heading-child2{
+    font-size: 30px;
+    width: 14em;
+    padding: 20px 0px 0px 100px;
+    border-radius: 15px;
+    border-radius: 300px;
+    left: 250px;
+    top: 50px;
+}
+.heading-child3{
+    font-weight: bold;
+    font-size: 30px;
+    width: 12em;
+    height: 3em;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+    left: 1050px;
+
+}
+.logo{
+    background-color: lightblue;
+    border: 10px solid grey;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    
+}
+#text2{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 19px;
+}
+
+.register{
+    background-color: white;
+    width: 350px;
+    height: 750px;
+    border: 9px dashed red;
+    text-align: center;
+    color: lightpink;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    top: 240px;
+}
+h3{
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 0px 0px 2px 0px;
+}
+.padd{
+    margin-bottom: 25px;
+}
+.heading4{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    border: 8px solid red;
+    font-size: 30px;
+    width: 20em;
+    height: 2em;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    left: 450px;
+    top: 1040px;
+
+}
+.MENU1{
+    display: flex;
+    width: 1650px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 1190px;
+}
+.MENU2{
+    display: flex;
+    width: 1650px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 1550px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    color: darkblue;
+}
+.item{
+    border: 4px solid green;
+    background-color: lightblue;
+    color:blue;
+    width: 400px;
+    text-align: center;
+    border-radius: 50px;
+}
+li{
+    font-size: 20px;
+    font-weight: bold;
+}
