@@ -13,6 +13,7 @@ html{
     color: #813939;
     position: relative;
     left: 35%;
+    box-shadow: 5px 5px rgb(95, 48, 95);
 
 }
 .head{
@@ -35,6 +36,7 @@ html{
     font-weight: bold;
     padding: 1rem;
     position: relative;
+    box-shadow: 5px 5px rgb(95, 48, 95) ;
 }
 .item-1{
     float: left;
@@ -47,11 +49,11 @@ html{
 .item-3{
     clear: right;
     float: left;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 .item-4{
     float: right;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 img{
     width: 200px;
