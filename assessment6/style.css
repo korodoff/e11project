@@ -1,0 +1,151 @@
+html{
+    background-color: grey;
+}
+.heading{
+    background-color: white;
+    display: inline-block;
+    border: 7px solid #d84b4b;
+    width: 20rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-style: italic;
+    font-size: 20px;
+    color: #813939;
+    position: relative;
+    left: 35%;
+
+}
+.head{
+    width: auto;
+    height: 100vh;
+    border: 10px solid green;
+}
+.container{
+    width: 95%;
+}
+.container-item{
+    border: 7px solid #d84b4b;
+    background-color: white;
+    width: 15rem;
+    height:15rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1.9rem;
+    color: #813939;
+    font-weight: bold;
+    padding: 1rem;
+    position: relative;
+}
+.item-1{
+    float: left;
+}
+.item-2{
+    float: right;
+    padding-top: 4rem;
+    height: 12rem;
+}
+.item-3{
+    clear: right;
+    float: left;
+    margin-top: 6rem;
+}
+.item-4{
+    float: right;
+    margin-top: 6rem;
+}
+img{
+    width: 200px;
+}
+.grid-container{
+    background-color: green;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 60rem;
+    height: 600px;
+    border: 5px solid purple;
+    position: relative;
+    top:20px;
+    left: 15%;
+    
+}
+.grid{
+    text-align: center;
+    background-color: darkkhaki;
+    padding: 10px;
+    margin: 5px;
+}
+
+.grid1{
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.grid2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.grid3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  
+}
+.grid4{
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+ 
+}
+label{
+    font-size: small;
+}
+input{
+    text-align: center;
+}
+#submit{
+    background-color: red;
+}
+
+pre{
+    font-style: italic;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.line1{
+    position: relative;
+    top: 3px;
+   
+    
+}
+.line2{
+    position: relative;
+    top: 3px;
+}
+.line3{
+    position: relative;
+    top: 2px;
+}
+.float{
+    width: 400px;
+    height: 50px;
+    color: #d84b4b ;
+    border: 5px solid red;
+    box-shadow: 5px 5px 1px darkmagenta;
+    background-color: chartreuse;
+    border-radius: 10px;
+    position: fixed;
+    left: 400px;
+    bottom: 50px;
+   padding: 10px;
+   font-style: italic;
+}
+.left{
+    float: left;
+    font-weight: bold;
+}
+.right{
+    float: right;
+    font-weight: 600;
+}
