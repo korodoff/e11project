@@ -1,0 +1,113 @@
+.offering{
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900;
+    background: linear-gradient(
+        to right,
+        red,
+        green,
+        yellow
+    );
+
+}
+
+.navagation{
+    width: 20rem;
+    background-color: rgb(208, 208, 254);
+    position: relative;
+    left: 20%;
+    border-radius: 8px;
+    font-size: 7px;
+    font-weight: 700 ;
+    border: 2px solid red;
+    padding-left: 200px;
+    margin-top: 10px;
+
+}
+.unknown{
+    margin-top: 10px;
+    width: 100%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1px;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+
+}
+.unknown-item{
+    width:90% ;
+    background-color: aqua;
+    border-radius: 4px;
+    border: 3px solid rgb(54, 111, 54);
+}
+.item4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.heading{
+    margin: 10px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    background: linear-gradient(
+        to left,
+        red,yellow,red
+    );
+}
+.list{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid green;
+    background-image: radial-gradient(blue, lightgreen);
+
+}
+.names{
+    font-size: 8px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: brown;
+    width: 80px;
+    height: 40px;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid brown;
+}
+.ads{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 2fr;
+}
+.clr1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.clr5{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.cls6{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.cls7{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
