@@ -1,0 +1,106 @@
+.position{
+    filter: blur(2px);
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    z-index: 1;
+}
+.heading{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.button{
+    margin: 2px;
+}
+.fa{
+    color: rgb(213, 60, 60);
+    font-size: 18px;
+}
+#back{
+    font-size: 15px;
+    padding-left: 5px;
+    color: grey;
+}
+.note{
+    margin-top: 6px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+.note-item{
+    background-color: white;
+    width: 198px;
+    height: 200px;
+    border-radius: 7px;
+    border: 1px solid lightpink;
+    box-shadow: 3px 3px 0px 0px rgb(200, 193, 193);
+
+}
+h4{
+    color: lightpink ;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    float: right;
+    padding-right: 40px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.complete-task{
+    clear: right;
+    display: block;
+    text-align: end;
+    font-size: 16px;
+    padding-right: 35px;
+    text-decoration: line-through;
+    color: red;
+    margin: 0px;
+}
+.label{
+    font-size: 13px;
+    padding-left: 1px;
+}
+.add-button{
+    color: rgb(201, 61, 61);
+    position: relative;
+    top: 65px ;
+    left: 80px;
+    font-size: 24px;
+}
+
+.add-item{
+    width: 200px;
+    height: 105px;
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+    color: red;
+    border: 1px solid lightpink;
+    background-color: white;
+    box-shadow: 3px 3px 0px 0px rgb(200, 193, 193);
+    border-radius: 5px;
+}
+.add-new-item{
+    display: block;
+    padding: 10px;
+    font-weight: 900;
+
+}
+.text{
+    border: 1px solid lightpink;
+}
+.add{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 50px;
+    padding: 4px;
+}

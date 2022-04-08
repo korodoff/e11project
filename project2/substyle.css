@@ -1,0 +1,71 @@
+.position{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+}
+.heading{
+    margin-bottom: 20px;
+    font-size: 27px;
+    font-weight: bolder;
+}
+.button{
+    margin: 2px;
+}
+.fa{
+    color: rgb(213, 60, 60);
+    font-size: 18px;
+}
+#back{
+    font-size: 15px;
+    padding-left: 5px;
+    color: grey;
+}
+.note{
+    margin-top: 6px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+.note-item{
+    background-color: white;
+    width: 198px;
+    height: 200px;
+    border-radius: 7px;
+    border: 1px solid lightpink;
+    box-shadow: 3px 3px 0px 0px rgb(200, 193, 193);
+
+}
+h4{
+    color: lightpink ;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    float: right;
+    padding-right: 40px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.complete-task{
+    clear: right;
+    display: block;
+    text-align: end;
+    font-size: 16px;
+    padding-right: 35px;
+    text-decoration: line-through;
+    color: red;
+    margin: 0px;
+}
+.label{
+    font-size: 13px;
+    padding-left: 1px;
+}
+.add-button{
+    color: rgb(201, 61, 61);
+    position: relative;
+    top: 65px ;
+    left: 80px;
+    font-size: 24px;
+}
