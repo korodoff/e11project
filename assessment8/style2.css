@@ -1,0 +1,40 @@
+html{
+    background-color: yellow;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.item{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    transition: all 2s linear;
+}
+.flex1:hover{
+    width: 250px;
+    
+}
+.flex2:hover{
+    width:250px;
+    height: 250px;
+}
+.flex3:hover{
+    width:350px;   
+}
+.flex4:hover{
+    width:250px;   
+    transition: all 3s linear;
+}
+.flex5:hover{
+    width:300px;  
+    transition: all 4s linear;
+}
+.flex6:hover{
+    width:280px;   
+    transition: all 1s linear;
+}
+.flex7:hover{
+    width:350px;   
+}
+

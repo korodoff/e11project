@@ -1,0 +1,132 @@
+html{
+    background-color: yellow;
+}
+.container{
+    display: inline-flex;
+    justify-content: center;
+}
+.flex-item1{
+    background-color: cornflowerblue;
+    width:100px;
+    height:100px;
+    display: inline-flex;
+    flex-flow: column wrap;
+    margin:40px;
+    animation: krut1 2s infinite;
+    animation-direction: alternate;
+}
+.flex-item2{
+    background-color: rgb(176, 31, 201);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 40px;
+    animation: krut2 4s infinite;
+    animation-timing-function:linear ;
+    animation-direction: alternate-reverse;
+}
+.flex-item3{
+    background-color: rgb(124, 72, 187);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 40px;
+    animation: krut3 2s infinite ;
+    animation-direction: linear;
+}
+/* .flex-item31{
+    background-color: rgb(124, 72, 187);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 40px;
+    animation: krut3 4s infinite 2s;
+    animation-timing-function:linear ;
+    animation-direction: alternate;
+}
+.flex-item32{
+    background-color: rgb(124, 72, 187);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 40px;
+    animation: krut3 4s infinite 3s;
+    animation-timing-function:linear ;
+    animation-direction: alternate;
+} */
+.flex-item4{
+    background-color: rgb(87, 29, 202);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 40px;
+    animation: krut4 2s infinite;
+    animation-timing-function:linear ;
+    animation-direction: alternate-reverse;
+}
+.flex-item5{
+    background-color: rgb(87, 29, 202);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 40px;
+    animation: krut5 2s infinite;
+    animation-timing-function:linear ;
+    animation-direction: alternate-reverse;
+}
+.flex-item6{
+    background-color: rgb(87, 29, 202);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 40px;
+    animation: krut6 4s infinite;
+    animation-timing-function:linear ;
+    animation-direction: alternate-reverse;
+}
+@keyframes krut1{
+    0%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
+@keyframes krut2{
+    0%{
+        transform: skewY(20deg);
+    }
+    100%{
+        transform: skewY(-20deg);
+    }
+}
+@keyframes krut3{
+   0%{
+       transform: rotate(0deg);
+   }
+   100%{
+       transform: rotate(360deg);
+   }
+}
+@keyframes krut4{
+    to{
+        transform: scaleY(1.2);
+    }
+}
+@keyframes krut5{
+    to{
+        transform: scaleX(1.2);
+    }
+}
+@keyframes krut6{
+    to{
+        transform: rotate(90deg);
+    }
+}
