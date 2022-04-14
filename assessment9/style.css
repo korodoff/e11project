@@ -4,6 +4,9 @@ body{
     background-image: url(./img/shara\ desert.jpg);
     background-size: cover;
 }
+body:active{
+    transform: translateY(-10px);
+}
 .container{
     width: 80%;
     position: relative;
